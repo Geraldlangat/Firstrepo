@@ -54,6 +54,14 @@ cin>>w;
 G.setLength(l);
 G.setWidth(w);
 G.display();
+Rectangle f;
+cout<<"Enter Length:";
+cin>>l;
+cout<<"Enter Width:";
+cin>>w;
+f.setLength(l);
+f.setWidth(w);
+f.display();
 }
 
 
