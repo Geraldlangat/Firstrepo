@@ -32,10 +32,28 @@ cout<<"Perimeter="<<perimeter()<<endl;
 }
 };
 int main(){
+int l;
+int w;
+/*cout<<"Enter Length:";
+cin>>l;
+cout<<"Enter Width:";
+cin>>w;*/
 Rectangle T;
-T.setLength(5);
-T.setWidth(4);
+cout<<"Enter Length:";
+cin>>l;
+cout<<"Enter Width:";
+cin>>w;
+T.setLength(l);
+T.setWidth(w);
 T.display();
+Rectangle G;
+cout<<"Enter Length:";
+cin>>l;
+cout<<"Enter Width:";
+cin>>w;
+G.setLength(l);
+G.setWidth(w);
+G.display();
 }
 
 
